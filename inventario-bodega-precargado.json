@@ -1,0 +1,521 @@
+{
+ "data": [
+  {
+   "id": 1782252487741,
+   "nevera": "Bodega",
+   "prod": "Agua Brisa Manzana 600 ML",
+   "cant": 11,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487742,
+   "nevera": "Bodega",
+   "prod": "Agua Manantial con Gas 600 ML",
+   "cant": 23,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487743,
+   "nevera": "Bodega",
+   "prod": "Agua Manantial Mineral 1.5 LT",
+   "cant": 45,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487744,
+   "nevera": "Bodega",
+   "prod": "Agua Mineral Manantial Vidrio 500 ML",
+   "cant": 51,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487745,
+   "nevera": "Bodega",
+   "prod": "Coca-Cola 1.5 LT",
+   "cant": 61,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487746,
+   "nevera": "Bodega",
+   "prod": "Coca-Cola 2.5 LT",
+   "cant": 36,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487747,
+   "nevera": "Bodega",
+   "prod": "Coca-Cola 400 ML",
+   "cant": 42,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487748,
+   "nevera": "Bodega",
+   "prod": "Coca-Cola 600 ML",
+   "cant": 76,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487749,
+   "nevera": "Bodega",
+   "prod": "Coca-Cola Lata 330 ML",
+   "cant": 40,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487750,
+   "nevera": "Bodega",
+   "prod": "Coca-Cola Zero 1.5 LT",
+   "cant": 56,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487751,
+   "nevera": "Bodega",
+   "prod": "Coca-Cola Zero 400 ML",
+   "cant": 64,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487752,
+   "nevera": "Bodega",
+   "prod": "Flashlyte Coco Limón",
+   "cant": 2,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487753,
+   "nevera": "Bodega",
+   "prod": "Flashlyte Uva 625 ML",
+   "cant": 4,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487754,
+   "nevera": "Bodega",
+   "prod": "Fuze Tea Negro Durazno 400 ML",
+   "cant": 7,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487755,
+   "nevera": "Bodega",
+   "prod": "Fuze Tea Negro Limón 400 ML",
+   "cant": 10,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487756,
+   "nevera": "Bodega",
+   "prod": "Fuze Tea Manzanilla y Mango 400 ML",
+   "cant": 14,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487757,
+   "nevera": "Bodega",
+   "prod": "Gaseosa Kola Román 400 ML",
+   "cant": 6,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487758,
+   "nevera": "Bodega",
+   "prod": "Gaseosa Quatro 3 LT",
+   "cant": 2,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487759,
+   "nevera": "Bodega",
+   "prod": "Gaseosa Quatro 400 ML",
+   "cant": 35,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487760,
+   "nevera": "Bodega",
+   "prod": "Gaseosa Sprite 400 ML",
+   "cant": 2,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487761,
+   "nevera": "Bodega",
+   "prod": "Jugo del Valle Frutal Mora 500 ML",
+   "cant": 4,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487762,
+   "nevera": "Bodega",
+   "prod": "Monster Energy Green Lata 473 ML",
+   "cant": 9,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487763,
+   "nevera": "Bodega",
+   "prod": "Powerade Blast 500 ML",
+   "cant": 10,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487764,
+   "nevera": "Bodega",
+   "prod": "Powerade Frutas Tropicales 500 ML",
+   "cant": 9,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487765,
+   "nevera": "Bodega",
+   "prod": "Quatro Toronja 1.5 LT",
+   "cant": 1,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487766,
+   "nevera": "Bodega",
+   "prod": "Agua Cristal Aloe y Coco 330 ML",
+   "cant": 3,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487767,
+   "nevera": "Bodega",
+   "prod": "Agua Cristal Aloe y Limón 330 ML",
+   "cant": 3,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487768,
+   "nevera": "Bodega",
+   "prod": "Agua H2O Limonata 600 ML",
+   "cant": 22,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487769,
+   "nevera": "Bodega",
+   "prod": "Gaseosa Manzana 1.5 LT",
+   "cant": 2,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487770,
+   "nevera": "Bodega",
+   "prod": "Gaseosa Manzana 2.5 LT",
+   "cant": 9,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487771,
+   "nevera": "Bodega",
+   "prod": "Gaseosa Pepsi 1.5 LT",
+   "cant": 2,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487772,
+   "nevera": "Bodega",
+   "prod": "Gatorade Maracuyá 500 ML",
+   "cant": 15,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487773,
+   "nevera": "Bodega",
+   "prod": "Gatorade Tropical Fruit 500 ML",
+   "cant": 9,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487774,
+   "nevera": "Bodega",
+   "prod": "Gatorade Zero Naranja 500 ML",
+   "cant": 18,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487775,
+   "nevera": "Bodega",
+   "prod": "Gatorlit Coco 620 ML",
+   "cant": 22,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487776,
+   "nevera": "Bodega",
+   "prod": "Gatorlit Fresa Kiwi 620 ML",
+   "cant": 17,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487777,
+   "nevera": "Bodega",
+   "prod": "Gatorlit Mora 620 ML",
+   "cant": 25,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487778,
+   "nevera": "Bodega",
+   "prod": "Gatorlit Uva 620 ML",
+   "cant": 15,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487779,
+   "nevera": "Bodega",
+   "prod": "Hatsu Soda Sandía y Albahaca",
+   "cant": 4,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487780,
+   "nevera": "Bodega",
+   "prod": "Hatsu Soda Uva Blanca y Romero",
+   "cant": 4,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487781,
+   "nevera": "Bodega",
+   "prod": "Hatsu Té Rosado Claro 400 ML",
+   "cant": 5,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487782,
+   "nevera": "Bodega",
+   "prod": "Hatsu Té Verde 0 Calorías 400 ML",
+   "cant": 4,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487783,
+   "nevera": "Bodega",
+   "prod": "Hit Lulo 500 ML",
+   "cant": 4,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487784,
+   "nevera": "Bodega",
+   "prod": "Hit Mora 500 ML",
+   "cant": 35,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487785,
+   "nevera": "Bodega",
+   "prod": "Hit Naranja Piña 500 ML",
+   "cant": 3,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487786,
+   "nevera": "Bodega",
+   "prod": "Hit Uva 200 ML",
+   "cant": 2,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487787,
+   "nevera": "Bodega",
+   "prod": "Natu Malta 1000 ML",
+   "cant": 2,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487788,
+   "nevera": "Bodega",
+   "prod": "Natu Malta 200 ML",
+   "cant": 5,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487789,
+   "nevera": "Bodega",
+   "prod": "Speed Max 1 LT",
+   "cant": 5,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487790,
+   "nevera": "Bodega",
+   "prod": "Speed Max Botella 400 ML",
+   "cant": 6,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487791,
+   "nevera": "Bodega",
+   "prod": "Speed Max Lata 310 ML",
+   "cant": 11,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487792,
+   "nevera": "Bodega",
+   "prod": "Tea Hatsu Té Negro y Limón 400 ML",
+   "cant": 3,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487793,
+   "nevera": "Bodega",
+   "prod": "Tea Hatsu Té Rojo Frutos Rojos 400 ML",
+   "cant": 5,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487794,
+   "nevera": "Bodega",
+   "prod": "Red Bull Sandía 250 ML",
+   "cant": 5,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487795,
+   "nevera": "Bodega",
+   "prod": "Maxlit Suero 45 Cereza 625 ML",
+   "cant": 2,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487796,
+   "nevera": "Bodega",
+   "prod": "Maxlit Suero 45 Maracuyá 625 ML",
+   "cant": 3,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  },
+  {
+   "id": 1782252487797,
+   "nevera": "Bodega",
+   "prod": "Maxlit Suero 45 Uva 625 ML",
+   "cant": 2,
+   "lote": "",
+   "vence": "",
+   "foto": false
+  }
+ ],
+ "cfg": {
+  "dias": 15
+ },
+ "fotos": {}
+}

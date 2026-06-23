@@ -102,6 +102,12 @@
   .actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
   footer{padding:24px 16px;text-align:center;color:var(--muted);font-size:11px}
 
+  .loc-totals{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:16px}
+  .loc-totals .lt{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:11px 13px;display:flex;align-items:center;gap:10px}
+  .loc-totals .dot{width:10px;height:10px;border-radius:50%;flex:none}
+  .loc-totals .lt .nm{font-size:13px;font-weight:600;flex:1}
+  .loc-totals .lt .qt{font-family:'Space Mono',monospace;font-weight:700;font-size:15px}
+
   datalist{display:none}
   .editing{border-color:var(--accent) !important;box-shadow:0 0 0 1px var(--accent)}
 
@@ -141,6 +147,9 @@
     <div class="kpi bad"><div class="n" id="kExp">0</div><div class="l">Vencidas</div></div>
   </div>
 
+  <!-- Totales por ubicación -->
+  <div class="loc-totals" id="locTotals"></div>
+
   <!-- Registro / edición -->
   <div class="card" id="formCard">
     <h2><span id="formTitle">Registrar producto</span></h2>
@@ -150,6 +159,7 @@
         <option value="Coca-Cola">Nevera Coca-Cola</option>
         <option value="Postobón">Nevera Postobón</option>
         <option value="Farmanorte">Nevera Farmanorte</option>
+        <option value="Bodega">Bodega</option>
       </select>
     </div>
     <div class="full">
@@ -186,6 +196,7 @@
     <div class="chip" data-f="Coca-Cola">Coca-Cola</div>
     <div class="chip" data-f="Postobón">Postobón</div>
     <div class="chip" data-f="Farmanorte">Farmanorte</div>
+    <div class="chip" data-f="Bodega">Bodega</div>
     <div class="chip" data-f="alert">⚠ Por vencer / vencidas</div>
   </div>
 
@@ -313,7 +324,8 @@ function closeLightbox(){document.getElementById('lightbox').classList.remove('o
 const NEVERAS={
   'Coca-Cola':{bg:'#f40000',short:'COCA'},
   'Postobón':{bg:'#0a4ea2',short:'POST'},
-  'Farmanorte':{bg:'#16a34a',short:'FARMA'}
+  'Farmanorte':{bg:'#16a34a',short:'FARMA'},
+  'Bodega':{bg:'#7c3aed',short:'BODEGA'}
 };
 
 function load(){
@@ -469,6 +481,19 @@ function render(){
   document.getElementById('kSoon').textContent=soon;
   document.getElementById('kExp').textContent=exp;
 
+  // Totales por ubicación (solo las que tienen productos)
+  const locDiv=document.getElementById('locTotals');
+  const order=['Coca-Cola','Postobón','Farmanorte','Bodega'];
+  let lhtml='';
+  order.forEach(loc=>{
+    const items=data.filter(x=>x.nevera===loc);
+    if(items.length===0) return;
+    const u=items.reduce((s,x)=>s+x.cant,0);
+    const nv=NEVERAS[loc];
+    lhtml+=`<div class="lt"><span class="dot" style="background:${nv.bg}"></span><span class="nm">${loc==='Bodega'?'Bodega':'Nevera '+loc}</span><span class="qt">${u}</span></div>`;
+  });
+  locDiv.innerHTML=lhtml;
+
   // Banner
   const b=document.getElementById('banner');
   const nExp=data.filter(x=>{const d=daysTo(x.vence);return d!==null&&d<0}).length;
@@ -501,7 +526,7 @@ function render(){
   const sort=document.getElementById('sortBy').value;
   if(sort==='nevera'){
     let html='';
-    ['Coca-Cola','Postobón','Farmanorte'].forEach(nv=>{
+    ['Coca-Cola','Postobón','Farmanorte','Bodega'].forEach(nv=>{
       const g=arr.filter(x=>x.nevera===nv);
       if(g.length===0) return;
       const sub=g.reduce((s,x)=>s+x.cant,0);
@@ -600,7 +625,7 @@ async function clearAll(){
 
 document.getElementById('filters').addEventListener('click',e=>{if(e.target.classList.contains('chip'))setFilter(e.target.dataset.f)});
 document.getElementById('fProducto').addEventListener('keydown',e=>{if(e.key==='Enter')saveProduct()});
-document.getElementById('ver').textContent='v3.0';
+document.getElementById('ver').textContent='v4.0';
 
 if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(()=>{});}
 
